@@ -4,7 +4,7 @@ import { AuthProvider } from './contexts/AuthContext.tsx';
 import ProtectedRoute from './components/ProtectedRoute';
 
 import AuthCallback from './pages/AuthCallback';
-import NotFound from './pages/notFound';
+import NotFound from './pages/NotFound.jsx';
 import Login from './pages/Login.tsx';
 import Dashboard from './pages/Dashboard.tsx';
 
