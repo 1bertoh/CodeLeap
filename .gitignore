@@ -1,0 +1,31 @@
+# Ignorar arquivos e pastas de sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar dependências
+node_modules/
+vendor/
+
+# Ignorar arquivos de ambiente
+.env
+
+# Ignorar builds
+dist/
+build/
+out/
+
+# Ignorar logs
+*.log
+
+# Ignorar IDEs e editores
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Ignorar arquivos temporários
+*.tmp
+*.swp
+
+# Ignorar arquivos de cache
+.cache/
