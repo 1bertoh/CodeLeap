@@ -110,7 +110,7 @@ export default function Login() {
             <Button
               type='submit'
               isLoading={loading}
-              className='bg-default-blue text-white font-bold'
+              className='bg-default-blue text-white font-bold cursor-pointer disabled:cursor-default'
               disabled={loading}
             >
               Send Magic Link
