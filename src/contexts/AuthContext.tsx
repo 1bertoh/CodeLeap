@@ -44,7 +44,7 @@ export function AuthProvider({ children }: AuthProviderProps): JSX.Element {
     const { error } = await supabase.auth.signInWithOtp({
       email,
       options: {
-        emailRedirectTo: `${window.location.origin}/auth/callback?username=${encodedUsername}`,
+        emailRedirectTo: `https://code-leap-639g.vercel.app/auth/callback?username=${encodedUsername}`,
       },
     });
     return { error };
